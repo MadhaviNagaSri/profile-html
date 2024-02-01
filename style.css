@@ -1,0 +1,21 @@
+.nav-logo{
+  height: 75px;
+  border-radius: 50%;
+  margin-right: auto;
+}
+.container{
+  height: 100vh;
+  width: 1000px;
+  background-image: url('https://cloudinary-marketing-res.cloudinary.com/image/upload/w_1000/q_auto/f_auto/landmannalaugar_iceland.jpg');
+}
+.nav-item{
+  color: black;
+  font-size: 20px;
+}
+.nav-item:hover{
+  color: aqua;
+}
+.anchor{
+  margin-left: 300px;
+  margin-right: auto;
+}
