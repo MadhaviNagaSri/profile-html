@@ -4,9 +4,14 @@
   margin-right: auto;
 }
 .container{
-  height: 100vh;
-  width: 1000px;
   background-image: url('https://cloudinary-marketing-res.cloudinary.com/image/upload/w_1000/q_auto/f_auto/landmannalaugar_iceland.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100lvh;
+  margin: 0;
+  padding: 0;
 }
 .nav-item{
   color: black;
