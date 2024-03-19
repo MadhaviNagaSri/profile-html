@@ -4,7 +4,7 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-    background-image: url("https://tse1.mm.bing.net/th?id=OIP.6XG78i1ZMK5PYtd2z1zY6QHaEo&pid=Api&P=0&h=180");
+    background-image: url("https://i.pinimg.com/originals/d3/92/28/d392282e6a790eedeec99ab38967a995.jpg");
     background-size: cover;
     overflow:hidden;
 }
@@ -86,9 +86,4 @@ td{
 .card:hover{
     transform: scale(1.15);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-}
-.card{
-    transition: 0.5s ease;
-    cursor: pointer;
-    margin: 30px;
 }
