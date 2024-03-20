@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture</title>
+    <style>
+    .btn{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(20, 110, 245);
+    color: white;
+    justify-content: center;
+    }
+    .btn:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    }   
+    </style>
+    <script>
+        function source(){
+            const e1 = document.querySelector("img");
+            e1.src = "https://tse3.mm.bing.net/th?id=OIP.4Ad8kkqbOm3Byi6VGMzkLgHaE9&pid=Api&P=0&h=180";
+        }
+    </script>
+</head>
+<body>
+    <h2>Flowers</h2>
+    <img src="https://tse1.mm.bing.net/th?id=OIP.z6pGwFhPvV4_Yn2ruRtQTwHaEK&pid=Api&P=0&h=180">
+    <br>
+    <button onclick="source()" class="btn">Click</button>
+</body>
+</html>
